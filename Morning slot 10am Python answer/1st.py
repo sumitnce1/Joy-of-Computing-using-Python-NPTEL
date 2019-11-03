@@ -65,7 +65,7 @@ for i in range(0,N-1):
         else:
             break
     if balls[i] > balls[i+1]:
-        if((balls[i] - balls[i+1]) <= U):
+        if((balls[i] - balls[i+1]) <= D):
             count+=1
         elif(special):
             count += 1
@@ -73,4 +73,4 @@ for i in range(0,N-1):
         else:
             break
 
-print(count + 1 ,end="")
+print(count + 1,end="")
